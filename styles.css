@@ -1,1 +1,14 @@
 /*  your css code here. If applicable */
+.keys {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.key {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
